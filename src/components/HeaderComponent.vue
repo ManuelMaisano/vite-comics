@@ -1,9 +1,7 @@
 <template>
-    <div>
-<header>
-    <h1>{{ title }}</h1>
-</header>
-    </div>
+    <header>
+        <img src="../assets/img/dc-logo.png" alt="Logo">
+    </header>
 </template>
 
 <script>

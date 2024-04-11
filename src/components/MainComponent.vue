@@ -1,5 +1,6 @@
 <template>
-   <img src="" alt="">
+ <main>
+ </main>
 </template>
 
 <script>
