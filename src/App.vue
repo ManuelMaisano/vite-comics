@@ -2,6 +2,7 @@
     <HeaderComponent />
     <MainComponent />
     <FooterOne />
+    <FooterTwo />
 
 </template>
 
@@ -9,12 +10,14 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterOne from './components/FooterOne.vue';
+import FooterTwo from './components/FooterTwo.vue';
     export default {
         name:'App',
         components:{
             HeaderComponent,
             MainComponent,
-            FooterOne
+            FooterOne,
+            FooterTwo
         },
         data(){
             return{
@@ -28,7 +31,7 @@ import FooterOne from './components/FooterOne.vue';
     }
 </script>
 
-<style  scoped>
+<style  lang="scss" scoped>
 
 
 </style>
