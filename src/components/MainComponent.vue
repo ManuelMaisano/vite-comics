@@ -1,5 +1,10 @@
 <template>
  <main>
+    <div >
+        <h1 >-->Contents goes here <--</h1>
+    </div>
+   
+    
  </main>
 </template>
 
@@ -15,6 +20,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
+
 
 </style>

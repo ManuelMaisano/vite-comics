@@ -64,9 +64,5 @@ li {
     margin: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
+
 </style>
