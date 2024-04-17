@@ -7,16 +7,16 @@
             </div>
             <div id="nav" class="p-3">
                 <ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
+                    <li><a href="&">CHARACTERS</a></li>
+                    <li><a href="&">COMICS</a></li>
+                    <li><a href="&">MOVIES</a></li>
+                    <li><a href="&">TV</a></li>
+                    <li><a href="&">GAMES</a></li>
+                    <li><a href="&">COOLECTIBLES</a></li>
+                    <li><a href="&">VIDEOS</a></li>
+                    <li><a href="&">FANS</a></li>
+                    <li><a href="&">NEWS</a></li>
+                    <li><a href="&">SHOP</a></li>
                 </ul>
             </div>
 
@@ -59,4 +59,29 @@ li {
 }
 
 
+a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+
+            &:hover {
+              color: #0282f9;
+            }
+
+            &:after {
+              content: '';
+              display: block;
+              height: 5px;
+              width: 100%;
+              margin: 0 auto;             
+              background-color: transparent;
+              position: relative ;
+              top: 53px;
+            }
+            &.active:after,
+            &:hover:after {
+              background-color: #0282f9;
+            }
+        }
 </style>
