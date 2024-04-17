@@ -1,5 +1,5 @@
 <template>
-    <footer>
+    <footer class="p-5">
         <div class="container">
             <ul class="d-flex justify-content-around align-items-center list-unstyled">
                 <li><img src="/public/images/buy-comics-digital-comics.png" alt="DigitalComics"><a
@@ -32,6 +32,7 @@ export default {
 <style lang="scss" scoped>
 footer {
     background-color: #0282F9;
+    
 }
 
 ul {
