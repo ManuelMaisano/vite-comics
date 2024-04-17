@@ -1,11 +1,23 @@
 <template>
-  <h1 class="text-center">Ciao</h1>
-  <i class="fa fa-solid fa-home"></i>
+  <div>
+    <HeaderComponent/>
+    <JumbotronComponent/>
+    <MainComponent/>
+  </div>
 </template>
 
 <script>
+import HeaderComponent from './components/HeaderComponent.vue';
+import JumbotronComponent from './components/JumbotronComponent.vue';
+import MainComponent from './components/MainComponent.vue';
   export default {
-    name: 'App'
+    name: 'App',
+    components: {
+      HeaderComponent,
+      JumbotronComponent,
+      MainComponent
+    }
+    
   }
 </script>
 
