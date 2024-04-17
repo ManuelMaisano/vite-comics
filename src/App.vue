@@ -5,6 +5,7 @@
     <MainComponent/>
     <FooterTopComponent/>
     <FooterMidComponent/>
+    <FooterBotComponent/>
 
   </div>
 </template>
@@ -15,6 +16,7 @@ import JumbotronComponent from './components/JumbotronComponent.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterTopComponent from './components/FooterTopComponent.vue';
 import FooterMidComponent from './components/FooterMIdComponent.vue';
+import FooterBotComponent from './components/FooterBotComponent.vue';
   export default {
     name: 'App',
     components: {
@@ -23,6 +25,7 @@ import FooterMidComponent from './components/FooterMIdComponent.vue';
       MainComponent,
       FooterTopComponent,
       FooterMidComponent,
+      FooterBotComponent
     }
     
   }
