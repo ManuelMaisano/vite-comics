@@ -1,37 +1,14 @@
 <template>
-    <HeaderComponent />
-    <MainComponent />
-    <FooterOne />
-    <FooterTwo />
-
+  <h1 class="text-center">Ciao</h1>
+  <i class="fa fa-solid fa-home"></i>
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue';
-import MainComponent from './components/MainComponent.vue';
-import FooterOne from './components/FooterOne.vue';
-import FooterTwo from './components/FooterTwo.vue';
-    export default {
-        name:'App',
-        components:{
-            HeaderComponent,
-            MainComponent,
-            FooterOne,
-            FooterTwo
-        },
-        data(){
-            return{
-
-            }
-        },
-        methods:{
-
-        }
-      
-    }
+  export default {
+    name: 'App'
+  }
 </script>
 
-<style  lang="scss" scoped>
-
+<style lang="scss" scoped>
 
 </style>
