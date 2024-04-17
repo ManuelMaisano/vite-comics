@@ -3,7 +3,8 @@
     <HeaderComponent/>
     <JumbotronComponent/>
     <MainComponent/>
-    <FooterTop/>
+    <FooterTopComponent/>
+    <FooterMidComponent/>
 
   </div>
 </template>
@@ -12,14 +13,16 @@
 import HeaderComponent from './components/HeaderComponent.vue';
 import JumbotronComponent from './components/JumbotronComponent.vue';
 import MainComponent from './components/MainComponent.vue';
-import FooterTop from './components/FooterTop.vue'
+import FooterTopComponent from './components/FooterTopComponent.vue';
+import FooterMidComponent from './components/FooterMIdComponent.vue';
   export default {
     name: 'App',
     components: {
       HeaderComponent,
       JumbotronComponent,
       MainComponent,
-      FooterTop,
+      FooterTopComponent,
+      FooterMidComponent,
     }
     
   }
