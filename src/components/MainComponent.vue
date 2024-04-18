@@ -3,10 +3,11 @@
         <div class="container text-center">
             <h2 class="text-white  ">CURRENT SERIES</h2>
             <div class="row">
-                <div class="col-12 col-md-3 col-lg-2" v-for="(item, index) in comics" :key="index">
+                <div id="card" class="col-12 col-md-3 col-lg-2" v-for="(item, index) in comics" :key="index">
                     <CardComponent :image="item.thumb" :series="item.series" :price="item.price" />
                 </div>
             </div>
+            <div class="btn btn-primary  w-25 my-5 m-auto ">LOAD MORE</div>
         </div>
     </main>
 </template>
@@ -16,18 +17,18 @@ import CardComponent from './MainComponent/CardComponent.vue';
 import { comics } from '../data/store';
 export default {
     name: 'MainComponent',
-    components :{
+    components: {
         CardComponent
     },
-  
-    data(){
-        return{
+
+    data() {
+        return {
             comics
         }
     },
     mounted() {
         console.log(comics)
-       
+
     },
 
 }
@@ -36,14 +37,18 @@ export default {
 <style lang="scss" scoped>
 main {
     background-color: #1C1C1C;
-   
+
 }
-h2{
-            background-color: #0282F9;
-            padding: 10px 0px;
-            width: 300px;
-            margin-right: auto;
-            transform: translateY(-50%);
-           
-        }
+
+h2 {
+    background-color: #0282F9;
+    padding: 10px 0px;
+    width: 300px;
+    margin-right: auto;
+    transform: translateY(-50%);
+
+}
+#card{
+    margin-bottom: 20px;
+}
 </style>

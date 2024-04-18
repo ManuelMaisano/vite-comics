@@ -3,7 +3,7 @@
         <div>
             <img :src="image" class="img-fluid w-100 " :alt="series">
         </div>
-        <div class="card-body text-start  my-2">
+        <div class="card-body text-start info my-2">
             <h5 class="text-white">{{ series }}</h5>
         </div>
     </div>
@@ -27,5 +27,11 @@
 </script>
 
 <style lang="scss" scoped>
+img{
+height: 250px;
+}
+.info{
+    height: 45px;
+}
 
 </style>
